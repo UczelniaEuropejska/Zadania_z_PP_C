@@ -1,0 +1,30 @@
+// Napisz program dzielący dwie liczby typu float.
+// 1. wprowadz dwie liczby a,b
+// 2. sprawdz czy b = 0
+// 3. tak to napisz nie dziel przez zero i koniec
+// 4. nie  r=a/b drukuj r 
+
+#include <stdio.h>
+int main()
+{
+float a,b,r;
+
+	printf("Podaj 1 liczbe "); 
+		scanf("%f",&a);
+	printf("Podaj 2 liczbe ");
+		scanf("%f",&b);
+
+//printf("Podaj 2 liczby oddzielone spacja ");  // jak chcesz wpisać to w jednej linijce zamiast zapytania o 1 i 2 liczbe.....
+//scanf("%d%d",&a,&b);  // zczytuje te a i b ...
+
+if(b == 0)
+  {
+       printf("Nie dziel przez zero! ");
+  }
+  else
+  {
+	r=a/b;
+    printf("Dzielenie liczb wynosi: %.2f \n", r); // 2 zera po przecinku bo %.2f
+}
+return (0);
+}
