@@ -1,0 +1,12 @@
+// Pętla for - 15x własne imię.
+#include <stdio.h>
+int main()
+{
+int i,n=15;
+//  scanf("%d",&n);
+  for(i = 0; i<n; i= i+1)
+  {
+    printf("Krzysztof  %d \n",i);
+  }
+  return(0);
+}
